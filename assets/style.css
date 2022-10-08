@@ -6,6 +6,7 @@
 .logo {
     margin: 1rem auto;
     max-width: 150px;
+    display: block
 }
 
 .smallHeading {
@@ -24,4 +25,14 @@ table .arabic {
 
 .returnP_terms {
     font-size: 13px
+}
+
+@media(max-width: 767px){
+    table.topInfo {
+        font-size: 13px;
+    }
+
+    table.table.table-bordered.table-hover.table-sm {
+        font-size: 10px;
+    }
 }
