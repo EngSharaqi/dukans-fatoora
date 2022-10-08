@@ -1,0 +1,18 @@
+.row {
+    margin-right: 0;
+    margin-left: 0
+}
+
+.smallHeading {
+    width: 100%;
+    display: block;
+    text-align: center
+}
+
+table {
+    width: 100%
+}
+
+table .arabic {
+    text-align: right
+}
