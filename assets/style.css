@@ -3,6 +3,11 @@
     margin-left: 0
 }
 
+.logo {
+    margin: 1rem auto;
+    max-width: 150px;
+}
+
 .smallHeading {
     width: 100%;
     display: block;
@@ -15,4 +20,8 @@ table {
 
 table .arabic {
     text-align: right
+}
+
+.returnP_terms {
+    font-size: 13px
 }
