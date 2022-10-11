@@ -19,17 +19,9 @@
 table { width: 100% }
 table .arabic { text-align: right }
 .returnP_terms { font-size: 13px }
-th.unitPriceExclVat {
-    min-width: 100px
-}
-table th, table td {
-    vertical-align: middle !important;
-}
-
-.table.table-responsive.table-bordered.table-hover.table-sm th { 
-    vertical-align: top !important;
-
-}
+th.unitPriceExclVat { min-width: 100px }
+table th, table td { vertical-align: middle !important }
+.table.table-responsive.table-bordered.table-hover.table-sm th { vertical-align: top !important }
 @media(max-width: 767px){
     table.topInfo { font-size: 13px }
     table.table.table-bordered.table-hover.table-sm { font-size: 10px }
