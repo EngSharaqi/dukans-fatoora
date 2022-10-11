@@ -22,6 +22,9 @@ table .arabic { text-align: right }
 th.unitPriceExclVat {
     min-width: 100px
 }
+table th, table td {
+    vertical-align: middle !important;
+}
 @media(max-width: 767px){
     table.topInfo { font-size: 13px }
     table.table.table-bordered.table-hover.table-sm { font-size: 10px }
