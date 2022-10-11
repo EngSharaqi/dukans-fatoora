@@ -25,6 +25,11 @@ th.unitPriceExclVat {
 table th, table td {
     vertical-align: middle !important;
 }
+
+.table.table-responsive.table-bordered.table-hover.table-sm th { 
+    vertical-align: top !important;
+
+}
 @media(max-width: 767px){
     table.topInfo { font-size: 13px }
     table.table.table-bordered.table-hover.table-sm { font-size: 10px }
